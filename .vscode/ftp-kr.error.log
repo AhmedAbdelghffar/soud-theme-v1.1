@@ -1,0 +1,8 @@
+[Error]
+message: Need host
+[Stack Trace]
+Error: Need host
+    at ConfigNamespace.set (C:\Users\Ahmed\.vscode\extensions\ruakr.ftp-kr-1.0.9\out\config.js:95:23)
+    at ConfigNamespace.<anonymous> (C:\Users\Ahmed\.vscode\extensions\ruakr.ftp-kr-1.0.9\out\config.js:139:32)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Ahmed\.vscode\extensions\ruakr.ftp-kr-1.0.9\out\config.js:4:58)
