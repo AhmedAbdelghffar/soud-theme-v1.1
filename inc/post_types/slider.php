@@ -39,7 +39,7 @@ public function register_post_type(){
           'hierarchical'       => false,
           'menu_position'      => 5,
           'exclude_from_search'=> true,
-          'supports'           => array( 'title', 'editor', 'thumbnail' )
+          'supports'           => array( 'title', 'thumbnail' )
       );
       register_post_type( 'slider', $args );
 

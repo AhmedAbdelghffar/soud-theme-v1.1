@@ -1,4 +1,7 @@
-
+<?php
+$option_1 = fw_get_google_fonts();
+var_dump($option_1);
+?>
 <?php wp_footer(); ?>
 <?php global $soud_builder; ?>
 

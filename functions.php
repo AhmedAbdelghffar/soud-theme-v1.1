@@ -4,7 +4,7 @@
 require get_template_directory() . '/inc/customize.php';
 require get_template_directory() . '/inc/posttypes.php';
 require get_template_directory() . '/inc/woofunctions.php';
-require get_template_directory() . '/admin-folder/admin/admin-init.php';
+//require get_template_directory() . '/admin-folder/admin/admin-init.php';
 
 
 
