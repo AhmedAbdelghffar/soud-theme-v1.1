@@ -1,7 +1,7 @@
 
 <?php wp_footer(); ?>
 <?php global $soud_builder; 
- $option_value = fw_get_db_settings_option('body-color');
+ $option_value = fw_get_db_settings_option('option_1');
 
 
 ?>
