@@ -1,9 +1,10 @@
-<?php
-$option_1 = fw_get_google_fonts();
-var_dump($option_1);
-?>
+
 <?php wp_footer(); ?>
-<?php global $soud_builder; ?>
+<?php global $soud_builder; 
+ $option_value = fw_get_db_settings_option('body-color');
+
+
+?>
 
 <div class="footer" id="footer">
 <div class="container">
@@ -12,7 +13,7 @@ var_dump($option_1);
 
 
 <div class="col-md-4 col-xs-12">
-  <h4>Contact Info </h4>
+  <h4><?php var_dump($option_value); ?></h4>
 <div class="social">
           <a  target="_blank" rel="nofollow" href="<?php echo $soud_builder['social-network']['facebook'];  ?>"><i class="fa fa-facebook" aria-hidden="true"></i></a>
           <a  target="_blank" rel="nofollow" href="<?php echo $soud_builder['social-network']['twitter'];  ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>

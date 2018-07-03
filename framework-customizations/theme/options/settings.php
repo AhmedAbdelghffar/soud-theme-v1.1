@@ -7,7 +7,45 @@ $options = array(
         'type' => 'box',
         'options' => array(
             'option_1'  => array( 'type' => 'text' ),
-            'option_2'  => array( 'type' => 'text' )
+            'option_2'  => array( 'type' => 'text' ),
+             'option_3' => array(
+                'type'  => 'switch',
+                'value' => 'hello',
+                'attr'  => array( 'class' => 'custom-class', 'data-foo' => 'bar' ),
+                'label' => __('Label', '{domain}'),
+                'desc'  => __('Description', '{domain}'),
+                'help'  => __('Help tip', '{domain}'),
+                'left-choice' => array(
+                    'value' => 'goodbye',
+                    'label' => __('Goodbye', '{domain}'),
+                ),
+                'right-choice' => array(
+                    'value' => 'hello',
+                    'label' => __('Hello', '{domain}'),
+                ),
+            ),
+            'option_4'  => array(
+                'type'  => 'multi',
+                'value' => array(
+                    'option-1' => 'value 1',
+                    'option-2' => 'value 2',
+                ),
+                'attr'  => array(
+                    'class' => 'custom-class',
+                    'data-foo' => 'bar',
+                    /*
+                    // Add this class to display inner options separators
+                    'class' => 'fw-option-type-multi-show-borders',
+                    */
+                ),
+                'label' => __('Label', '{domain}'),
+                'desc'  => __('Description', '{domain}'),
+                'help'  => __('Help tip', '{domain}'),
+                'inner-options' => array(
+                    'option_1' => array( 'type' => 'text' ),
+                    'option_2' => array( 'type' => 'textarea' ),
+                )
+            )
         ),
         'title' => __('Box Title', '{domain}'),
         'attr' => array('class' => 'custom-class', 'data-foo' => 'bar'),

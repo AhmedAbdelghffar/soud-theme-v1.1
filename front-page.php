@@ -51,7 +51,9 @@
         <img  src="<?php the_post_thumbnail_url(); ?>" class="img-responsive"  alt="<?php the_title(  ); ?>"/>
         <div class="carousel-caption hidden-xs" >
            <div class="carousel-caption-inner wow slideInDown" data-wow-duration="3s" data-wow-delay=".1s">
-           <?php the_content(  ); ?>
+           <?php $option_value = fw_get_db_post_option(get_the_ID(), 'slider_caption'); 
+           
+           ?>
            </div>
          </div>
       </div>
