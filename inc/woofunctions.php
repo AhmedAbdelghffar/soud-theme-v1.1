@@ -6,4 +6,4 @@ function unyson_fields(){
     $option_value = fw_get_db_post_option(get_the_ID(), 'woo');
     echo $option_value;
 }
-add_action( 'woocommerce_single_product_summary', 'unyson_fields', 10 );
+add_action( 'woocommerce_single_product_summary', 'unyson_fields', 7 );
