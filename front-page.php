@@ -74,9 +74,33 @@
     </div>
 </div>
 
-<!-- --------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------->
 
+<div class="ui inverted menu">
+  <a class="active item">
+    Home
+  </a>
+  <a class="item">
+    Messages
+  </a>
+  <a class="item">
+    Friends
+  </a>
+</div>
 
+<br>
+<br>
+<div class="ui grid container">
+  <div class="four wide column">one</div>
+  <div class="four wide column">two</div>
+  <div class="four wide column">three</div>
+  <div class="four wide column">four</div>
+  <div class="four wide column">five</div>
+  <div class="four wide column">six</div>
+  <div class="four wide column">seven</div>
+  <div class="four wide column">eight</div>
+</div>
+<!------------------------------------------------------------------------------>
 
 </div>
 </div>
